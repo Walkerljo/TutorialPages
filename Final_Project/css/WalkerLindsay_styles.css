@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace !important;
+	}
+
+.floatform {
+	float:right;
+	}
+.backbutton {
+	display: inline;
+	max-width: 15%;
+	width: 115px;
+	min-width: 75px;
+	margin-bottom: 10 px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+.rainback {
+	padding-bottom: 70px; 
+	background-image:url(../images/Rainbow_Background.jpg);
+	background-size:300px; 
+	background-repeat:repeat-x, repeat-y;
+}
+.formoverflow{
+	overflow:hidden;
+	padding: 3px;
+	}
+.glass {
+	background-color: rgba(255,255,255, 0.55) !important;
+}
+.gradtext {
+  font-size: auto;
+  background: -webkit-linear-gradient(#f9211d, #f9f627, #32fff4, #bf16fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blackback {
+
+}
+
+.roundcorner{
+	border-radius:6px;
+	}.homebackbut   {
+	margin: 2px;
+	float: left;
+	background-color: black;
+	display: inline;
+}
+.flex {
+	display: flex;
+	flex: wrap;
+}
+
+.headerback {
+	background: -webkit-linear-gradient(right, rgba(0,0,0,0.4), rgba(0,0,0,0.9)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, rgba(0,0,0,0.4), rgba(0,0,0,0.9)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, rgba(0,0,0,0.4), rgba(0,0,0,0.9)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0.9)); /* Standard syntax (must be last) */
+}
+.footerback {
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0.4), rgba(0,0,0,0.9)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(0,0,0,0.4), rgba(0,0,0,0.9)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(0,0,0,0.4), rgba(0,0,0,0.9)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.9)); /* Standard syntax (must be last) */
+	}
+a:link {
+	color: rgba(225,29,117,0.53);
+}
+a:hover {
+	color: white;
+}
+a:visited {
+	color: rgba(59,200,225,0.53);
+}
+a:active {
+	color: white;
+}
+.row.glass h2 {
+	color: rgba(127, 63, 191, 0.88);
+}
+.row.glass.img {
+	width="auto"
+	overflow-x: auto;
+}
+.rainback {
+	background-image: url(../images/Rainbow_Background.jpg);
+	background-repeat: repeat;
+}
+.bottom {
+	font-weight: bolder;
+	text-shadow: 0px 0px 1pt;
+	float: right;
+}
+.backbuttonw {
+	min-width: 150px;
+	max-width: 50%;
+}
+.accordion {
+	max-width: 50%;
+	margin-left: 35%;
+	min-width: 400px;
+}
+.accordiontext {
+	max-width: 35%;
+}
